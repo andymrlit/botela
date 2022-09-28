@@ -30,26 +30,26 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/denarajb'
+global.sig = 'https://instagram.com/andy_mr_lit'
 global.sgh = '-' //github
-global.sgc = 'https://chat.whatsapp.com/BiHY7oEBhQo1CsDeZgQ5dA' //group whatsapp
+global.sgc = 'https://chat.whatsapp.com/GWqdNbvvnVCAOXVZws0Ok4' //group whatsapp
 global.sdc = '-' //discord
-global.snh = 'https://youtube.com/c/DenaraBot' // my youtube channel
+global.snh = 'https://youtube.com/c/AndyOfc' // my youtube channel
 
 /*============== PAYMENT ==============*/
-global.pdana = '085727492435' //dana
-global.povo = '085727492435' //ovo
+global.pdana = '50941411147' //dana
+global.povo = '50941411147' //ovo
 global.pgopay = 'minta ke owner' //gopay
-global.plinkaja = '085727492435' //link aja
-global.ppulsa = '081215626270' //telkomsel
-global.ppulsa2 = '085727492435' // kalau ada kartu lain isi aja
-global.psaweria = 'https://saweria.com/denarabot26'
+global.plinkaja = '50941411147' //link aja
+global.ppulsa = '50941411147' //telkomsel
+global.ppulsa2 = '50941411147' // kalau ada kartu lain isi aja
+global.psaweria = 'https://saweria.com/mrlit'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285727492435'
-global.nomorown = '6281215626270'
-global.namebot = 'DENARA-BOT-V1'
-global.nameown = 'DENARA BOT'
+global.nomorbot = '50941411147'
+global.nomorown = '50941411147'
+global.namebot = 'ANDY-BOT-V1'
+global.nameown = 'ANDYMRLit BOT'
 
 /*============== APIKEY SIMPEL ==============*/
 global.zenzkey = 'b8040941f7'
@@ -58,7 +58,7 @@ global.lolkey = '8e66d0934cf741bfd2182c16' // PUNYA WAHID 357d3c85079c4e0818731e
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6281215626270', 'DENARA', true],
+  ['50941411147', 'ANdY', true],
   ['-', 'isi_kalau_ada', true],
   ['-', 'isi_kalau_ada', true],
   ['-', 'isi_kalau_ada', true] //Ganti jd nomormu sama Namamu
@@ -109,13 +109,13 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 DENARA-BOT-V1 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘DENARA-BOT-V1 ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ DENARA-BOT-V1 '
+global.wm = '                「 ANDY-BOT-V1 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ANDY-BOT-V1 ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ ANDY-BOT-V1 '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | By DENARA-BOT`
-global.author = '                「 DENARA-BOT-V1  あ」'
+global.titlebot = `⫹⫺ WhatsApp Bot | By ANDYMrLiT`
+global.author = '                「 ANdY BOT-V1  あ」'
 
 
 /*============== LOGO ==============*/
@@ -189,8 +189,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'DENARA-BOT-V1'
-global.stickauth = `By ©DENARA BOT`
+global.stickpack = 'ANDY-BOT-V1'
+global.stickauth = `By ©ANDY BOT`
 
 global.multiplier = 38 // The higher, The harder levelup
 
