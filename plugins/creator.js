@@ -11,26 +11,26 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ------- ${nameown} -------
 
 📮 *Note:*
-• Owner tidak menerima save contact
-• Owner berhak blockir tanpa alasan
-• Berbicaralah yang sopan & tidak spam
-• Owner Hanya merespon yang berkaitan dengan BOT
-• No Telp`
+• Le propriétaire n'accepte pas l'enregistrement du contact
+• Le propriétaire a le droit de bloquer sans raison
+• Parlez poliment et ne spammez pas
+• Le propriétaire ne répond que par rapport au BOT
+• epi gyetmanmanw`
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : WH-MODS-Dev
-${htjava} *✉️ Nama RL* : HAMBA ALLAH
+${htjava} *💌 Nama* : Ralph andy
+${htjava} *✉️ Nama RL* : Andy mr lit
 ${htjava} *♂️ Gender* : Boys
-${htjava} *🕋 Agama* : Islam
+${htjava} *🕋 Agama* : .....
 ${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : 18
-${htjava} *🧮 Kelas* : SUDAH TAMAT
-${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP "MODDER WHATSAPP"
-${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
-${htjava} *🗺️ Tinggal* : Indo, Depok, Jawa Barat
-${htjava} *❤️ Waifu* : -
+${htjava} *🎨 Umur* : 17
+${htjava} *🧮 Kelas* : EST FINI
+${htjava} *🧩 Hobby* : Hacking ..."
+${htjava} *💬 Sifat* : C'EST AMUSANT SI VOUS LE SAVEZ
+${htjava} *🗺️ Tinggal* : Play boy
+${htjava} *❤️ Waifu* : - 🇭🇹nelly😍
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
