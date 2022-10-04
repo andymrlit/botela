@@ -4,16 +4,14 @@ let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
 let str = `*https://www.youtube.com/channel/Uw*
 
-Vous le voulez cru ?
-Détendez-vous mon frère....
-
 bro sak genla 🇭🇹😇
- koman mp kapab edew ti masisi padon pou ekspresyon an ou konnen eh trip la ki konsa
-siw bezwen kontakte moun ki kreye bot la mp kite on lien wap just klike ladanl
+ 
+siw bezwen kontakte moun ki kreye bot la mp kite on lien
 siw bezwen bot la ou met dim sa 
-map eseye fe tt sam kapab poum mete bot la an kreyol ou pa bezwen enkyetew
-Siw ta jwenn yon ere nn bot la kouri kontakte m poum jere sa vit
-wa.me/50941411147
+map eseye fe tt sam kapab poum mete bot la an kreyol 
+Siw ta jwenn yon ere nn bot la kouri kontakte m
+wa.me/5094141114
+
 map remesye zwing maxi ak romeo ki t edem kreye bot la 🇭🇹😊
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
