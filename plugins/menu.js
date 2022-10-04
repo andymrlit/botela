@@ -34,7 +34,7 @@ const defaultMenu = {
 %m2 *Mode:* %mode
 %m2 *Platform:* %platform
 %m2 *Type:* Node.Js
-%m2 *Baileys:* Multi Device
+%m2 *Baileys:* andy cretor
 %m2 *Prefix:* [ *%_p* ]
 %m2 *Uptime:* %muptime
 %m2 *Database:* %rtotalreg dari %totalreg
@@ -236,32 +236,32 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	},{
 	title: `${htki} MENU ${htka}`,
 	rows: [
-	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
+	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Afficher toutes les commandes BOT"},
 	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
-	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
-	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
-	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
-	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
-	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
-	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
-	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
-	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
-	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
-	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
-  {title: `🌎 ${pmenus} Berita`, rowId: ".? berita", description: "Cari berita terupdate"},
-	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
-	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
-	{title: `🎨 ${pmenus} Logo`, rowId: ".? logo", description: "Buat Logo Kamu diBOT"},
-	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
-	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
+	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Augmentons votre rang!"},
+	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Le jeu est amusant et excitant >-<"},
+	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fonctionnalités familiales"},
+	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Demandez au président du club"},
+	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Inspiration aléatoire"},
+	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Êtes-vous de l'herbe?"},
+	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, sagne de base"},
+	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Seuls les utilisateurs premium"},
+	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Parler aux étrangers"},
+	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Repentons-nous soeurette"},
+	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Rechercher quelque chose sur BOT"},
+  {title: `🌎 ${pmenus} Berita`, rowId: ".? berita", description: "Retrouvez les dernières actualités"},
+	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Télécharger quelque chose sur BOT"},
+	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Créer un autocollant sur BOT"},
+	{title: `🎨 ${pmenus} Logo`, rowId: ".? logo", description: "Créez votre logo sur BOT"},
+	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Pourquoi es-tu paresseux ?"},
+	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Modifier l'audio avec des filtres"},
   {title: `🎧 ${pmenus} Sound Menu`, rowId: ".soundmenu", description: "Kumpulan 120 Sound"},
-	{title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
-	{title: `👑 ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
-	{title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
-	{title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
+	{title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Seuls les groupes"},
+	{title: `👑 ${pmenus} Admin`, rowId: ".? admin", description: "Seuls les admins"},
+	{title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Économisez quelque chose sur BOT"},
+	{title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "Peut-être que cet outil peut aider?"},
 	{title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
-	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
+	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Propriétaire uniquement!"},
 	{title: `❓ ${pmenus} No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
 	]
   },
@@ -270,10 +270,10 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let usrs = db.data.users[m.sender]
 let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┌–––––––––––––––––✥
-│「 Hai Kak👋 」
+│「 est-ce👋 」
 └┬❖ 「 ${conn.getName(m.sender)} 」
-┌┤❀  Bagaimana Harimu? 😄
-┊│❀  Terima Kasih Telah Menggunakan Bot Kami
+┌┤❀  Comment s'est passée ta journée? 😄
+┊│❀  Merci d'utiliser notre bot
 │└────────────┈ ⳹
 ┊   「 *U s e r  I n f o 克* 」
 ┊↬✗• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
@@ -295,10 +295,10 @@ ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
 const listMessage = {
   text: tek,
-  footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
+  footer: '📮 *Noter:* Si vous trouvez un bogue, erreurs ou difficultés d'utilisation, veuillez signaler/demander au propriétaire',
   mentions: await conn.parseMention(tek),
-  title: `${htki} *LIST MENU* ${htka}`,
-  buttonText: `CLICK HERE ⎙`, 
+  title: `${htki} *MENU LISTE* ${htka}`,
+  buttonText: `CLIQUEZ ICI ⎙`, 
   sections
 }
   if (teks == '404') {
@@ -503,12 +503,12 @@ const listMessage = {
             fileLength: fsizedoc,
             pageCount: fpagedoc,
             caption: text,
-            footer: titlebot + '\n By Wh-Mods-Dev',
+            footer: titlebot + '\n By andymrlit',
             templateButtons: [
                 {
                     urlButton: {
-                        displayText: `SUBSCRIBE`,
-                        url: 'https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow'
+                        displayText: `follow',
+                        url: 'https://www.instagram.com/andy_mr_lit'
                     }
                 },
                 {
@@ -540,7 +540,7 @@ const listMessage = {
         //await conn.sendMessage(m.chat, message, m, { mentionedJid: [m.sender] })
         
     //------------------- BUTTON VID
-    //conn.sendButton(m.chat, text, wm, 'https://youtu.be/3ONnszQtwz0', [['Ping', '.speed'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
+    //conn.sendButton(m.chat, text, wm, 'https://youtu.be/3ONnsz', [['Ping', '.speed'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
     
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
@@ -584,16 +584,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   let res = "Sudah Dini Hari Kok Belum Tidur Kak? 🥱"
   if (time >= 4) {
-    res = "Pagi Lord 🌄"
+    res = "Seigneur du matin 🌄"
   }
   if (time >= 10) {
-    res = "Selamat Siang Kak ☀️"
+    res = "Bon après-midi ma soeur ☀️"
   }
   if (time >= 15) {
-    res = "Selamat Sore Kak 🌇"
+    res = "Bon après-midi soeurette 🌇"
   }
   if (time >= 18) {
-    res = "Malam Kak 🌙"
+    res = "Soeur de nuit 🌙"
   }
   return res
 }
