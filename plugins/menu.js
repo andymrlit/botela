@@ -270,10 +270,10 @@ import { promises } from 'fs'
  let usrs = db.data.users[m.sender] 
  let tek = `*${ucapan()} ${conn.getName(m.sender)}* 
  ┌–––––––––––––––––✥ 
- │「 Hai Kak👋 」 
+ │「 est-ce👋 」 
  └┬❖ 「 ${conn.getName(m.sender)} 」 
- ┌┤❀  Bagaimana Harimu? 😄 
- ┊│❀  Terima Kasih Telah Menggunakan Bot Kami 
+ ┌┤❀  Comment s'est passée ta journée? 😄 
+ ┊│❀  Merci d'utiliser notre bot 
  │└────────────┈ ⳹ 
  ┊   「 *U s e r  I n f o 克* 」 
  ┊↬✗• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)} 
