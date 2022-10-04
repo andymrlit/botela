@@ -295,7 +295,7 @@ import { promises } from 'fs'
  ` 
  const listMessage = { 
    text: tek, 
-   footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner', 
+   footer: '📮 *Note:* Si vous trouvez des bogues, des erreurs ou des difficultés d'utilisation, veuillez signaler/demander au propriétaire', 
    mentions: await conn.parseMention(tek), 
    title: `${htki} *LIST MENU* ${htka}`, 
    buttonText: `CLICK HERE ⎙`,  
