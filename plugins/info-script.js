@@ -12,7 +12,6 @@ map eseye fe tt sam kapab poum mete bot la an kreyol
 Siw ta jwenn yon ere nn bot la kouri kontakte m
 wa.me/5094141114
 
-map remesye zwing maxi ak romeo ki t edem kreye bot la 🇭🇹😊
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'okandy','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
